@@ -13,42 +13,75 @@
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Math" />
+            android:text="Math"
+            android:id="@+id/Math"
+            />
+      
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Biology" />
+            android:text="Biology"
+            android:id="@+id/Biology"
+            />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Writing" />
+            android:text="Writing"
+            android:id="@+id/Writing"
+            />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Chemistry" />
+            android:text="Chemistry"
+            android:id="@+id/Chemistry"
+            />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Physics" />
+            android:text="Physics"
+            android:id="@+id/Physics"
+            />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Psychology" />
+            android:text="Psychology"
+            android:id="@+id/Psy"
+            />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Engineering" />
+            android:text="Engineering"
+            android:id="@+id/Engr"
+            />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Literature" />
+            android:text="Literature"
+            android:id="@+id/Lit"
+            />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Speech" />
+            android:text="Speech"
+            android:id="@+id/Spch"
+            />
+      <Button
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:text="Computer Science"
+            android:id="@+id/Csci"
+            />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Academic Advising" />
+            android:text="Academic Advising"
+            android:id="@+id/Travis"
+            />
+        <Button
+        android:text="Back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BackButton"
+        android:textAllCaps="false" />
     </LinearLayout>
 </ScrollView>

@@ -63,20 +63,53 @@ namespace TutorXAndroid
 			// aapt resource value: 0x7f050001
 			public const int BackButton = 2131034113;
 			
+			// aapt resource value: 0x7f050003
+			public const int Biology = 2131034115;
+			
+			// aapt resource value: 0x7f050005
+			public const int Chemistry = 2131034117;
+			
 			// aapt resource value: 0x7f050000
 			public const int ChooseAppointment = 2131034112;
 			
-			// aapt resource value: 0x7f050003
-			public const int Student = 2131034115;
+			// aapt resource value: 0x7f05000b
+			public const int Csci = 2131034123;
 			
-			// aapt resource value: 0x7f050004
-			public const int Tutor = 2131034116;
+			// aapt resource value: 0x7f050008
+			public const int Engr = 2131034120;
 			
-			// aapt resource value: 0x7f050005
-			public const int imageView1 = 2131034117;
+			// aapt resource value: 0x7f050009
+			public const int Lit = 2131034121;
 			
 			// aapt resource value: 0x7f050002
-			public const int textView1 = 2131034114;
+			public const int Math = 2131034114;
+			
+			// aapt resource value: 0x7f050006
+			public const int Physics = 2131034118;
+			
+			// aapt resource value: 0x7f050007
+			public const int Psy = 2131034119;
+			
+			// aapt resource value: 0x7f05000a
+			public const int Spch = 2131034122;
+			
+			// aapt resource value: 0x7f05000e
+			public const int Student = 2131034126;
+			
+			// aapt resource value: 0x7f05000c
+			public const int Travis = 2131034124;
+			
+			// aapt resource value: 0x7f05000f
+			public const int Tutor = 2131034127;
+			
+			// aapt resource value: 0x7f050004
+			public const int Writing = 2131034116;
+			
+			// aapt resource value: 0x7f050010
+			public const int imageView1 = 2131034128;
+			
+			// aapt resource value: 0x7f05000d
+			public const int textView1 = 2131034125;
 			
 			static Id()
 			{
@@ -98,7 +131,10 @@ namespace TutorXAndroid
 			public const int CourseSelection = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Main = 2130903042;
+			public const int CsSelection = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Main = 2130903043;
 			
 			static Layout()
 			{
