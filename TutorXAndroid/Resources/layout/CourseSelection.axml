@@ -9,47 +9,47 @@
         <TextView
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Hello" />
+            android:text="Select your courses below:" />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Hello" />
+            android:text="Math" />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Hello" />
+            android:text="Biology" />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Hello" />
+            android:text="Writing" />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Hello" />
+            android:text="Chemistry" />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Hello" />
+            android:text="Physics" />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Hello" />
+            android:text="Psychology" />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Hello" />
+            android:text="Engineering" />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Hello" />
+            android:text="Literature" />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Hello" />
+            android:text="Speech" />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
-            android:text="Hello" />
+            android:text="Academic Advising" />
         <Button
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
