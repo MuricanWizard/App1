@@ -50,33 +50,5 @@
             android:layout_height="fill_parent"
             android:layout_width="fill_parent"
             android:text="Academic Advising" />
-        <Button
-            android:layout_height="fill_parent"
-            android:layout_width="fill_parent"
-            android:text="Hello" />
-        <Button
-            android:layout_height="fill_parent"
-            android:layout_width="fill_parent"
-            android:text="Hello" />
-        <Button
-            android:layout_height="fill_parent"
-            android:layout_width="fill_parent"
-            android:text="Hello" />
-        <Button
-            android:layout_height="fill_parent"
-            android:layout_width="fill_parent"
-            android:text="Hello" />
-        <Button
-            android:layout_height="fill_parent"
-            android:layout_width="fill_parent"
-            android:text="Hello" />
-        <Button
-            android:layout_height="fill_parent"
-            android:layout_width="fill_parent"
-            android:text="Hello" />
-        <Button
-            android:layout_height="fill_parent"
-            android:layout_width="fill_parent"
-            android:text="Hello" />
     </LinearLayout>
 </ScrollView>
