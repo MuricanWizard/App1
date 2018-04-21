@@ -54,20 +54,20 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activity1.cs" />
-    <Compile Include="MainActivity.cs" />
-    <Compile Include="CourseSelection.cs" />
-    <Compile Include="CsSelection.cs" />
-    <Compile Include="MathSelection.cs" />
-    <Compile Include="BiologySelection.cs" />
-    <Compile Include="ChemistrySelection.cs" />
-    <Compile Include="EngrSelection.cs" />
-    <Compile Include="PhysicsSelection.cs" />
-    <Compile Include="PsySelection.cs" />
-    <Compile Include="LitSelection.cs" />
-    <Compile Include="TravisSelection.cs" />
-    <Compile Include="SpchSelection.cs" />
-    <Compile Include="WritingSelection.cs" />
+    <Compile Include="Assets\Activity1.cs" />
+    <Compile Include="Assets\MainActivity.cs" />
+    <Compile Include="Assets\CourseSelection.cs" />
+    <Compile Include="Assets\CsSelection.cs" />
+    <Compile Include="Assets\MathSelection.cs" />
+    <Compile Include="Assets\BiologySelection.cs" />
+    <Compile Include="Assets\ChemistrySelection.cs" />
+    <Compile Include="Assets\EngrSelection.cs" />
+    <Compile Include="Assets\PhysicsSelection.cs" />
+    <Compile Include="Assets\PsySelection.cs" />
+    <Compile Include="Assets\LitSelection.cs" />
+    <Compile Include="Assets\TravisSelection.cs" />
+    <Compile Include="Assets\SpchSelection.cs" />
+    <Compile Include="Assets\WritingSelection.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
