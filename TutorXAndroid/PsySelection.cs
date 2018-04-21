@@ -9,27 +9,24 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using TutorXAndroid.Resources.layout;
 
 namespace TutorXAndroid.Resources.layout
 {
-    [Activity(Label = "CourseSelection")]
-    public class CourseSelection : Activity
+    [Activity(Label = "PsySelection")]
+    public class PsySelection : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+
             // Create your application here
-            SetContentView(Resource.Layout.CourseSelection);
-            Button Csci = FindViewById<Button>(Resource.Id.Csci);
-            Csci.Click += delegate
-            {
-                StartActivity(typeof(CsSelection));
-            };
+            SetContentView(Resource.Layout.PsySelection);
+
+
             Button Back = FindViewById<Button>(Resource.Id.BackButton);
             Back.Click += delegate
             {
-                StartActivity(typeof(Activity1));
+                StartActivity(typeof(CourseSelection));
             };
         }
     }

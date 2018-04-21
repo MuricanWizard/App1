@@ -128,13 +128,43 @@ namespace TutorXAndroid
 			public const int Activity1 = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int CourseSelection = 2130903041;
+			public const int BiologySelection = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int CsSelection = 2130903042;
+			public const int ChemistrySelection = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Main = 2130903043;
+			public const int CourseSelection = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int CsSelection = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int EngrSelection = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int LitSelection = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int Main = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int MathSelection = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int PhysicsSelection = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int PsySelection = 2130903050;
+			
+			// aapt resource value: 0x7f03000b
+			public const int SpchSelection = 2130903051;
+			
+			// aapt resource value: 0x7f03000c
+			public const int TravisSelection = 2130903052;
+			
+			// aapt resource value: 0x7f03000d
+			public const int WritingSelection = 2130903053;
 			
 			static Layout()
 			{
