@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Xamarin.Forms;
 
 namespace TutorXAndroid.Resources.layout
 {
@@ -23,10 +24,15 @@ namespace TutorXAndroid.Resources.layout
             SetContentView(Resource.Layout.CsSelection);
 
 
-            Button Back = FindViewById<Button>(Resource.Id.BackButton);
+            Android.Widget.Button Back = FindViewById<Android.Widget.Button>(Resource.Id.BackButton);
             Back.Click += delegate
             {
                 StartActivity(typeof(CourseSelection));
+            };
+
+            var browser = new WebView
+            {
+                Source = "http://xamarin.com"
             };
         }
     }

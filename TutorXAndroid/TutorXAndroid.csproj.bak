@@ -17,7 +17,7 @@
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -54,10 +54,20 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activity1.cs" />
-    <Compile Include="MainActivity.cs" />
-    <Compile Include="Resources\layout\CourseSelection.cs" />
-    <Compile Include="Resources\layout\CsSelection.cs" />
+    <Compile Include="Assets\Activity1.cs" />
+    <Compile Include="Assets\MainActivity.cs" />
+    <Compile Include="Assets\CourseSelection.cs" />
+    <Compile Include="Assets\CsSelection.cs" />
+    <Compile Include="Assets\MathSelection.cs" />
+    <Compile Include="Assets\BiologySelection.cs" />
+    <Compile Include="Assets\ChemistrySelection.cs" />
+    <Compile Include="Assets\EngrSelection.cs" />
+    <Compile Include="Assets\PhysicsSelection.cs" />
+    <Compile Include="Assets\PsySelection.cs" />
+    <Compile Include="Assets\LitSelection.cs" />
+    <Compile Include="Assets\TravisSelection.cs" />
+    <Compile Include="Assets\SpchSelection.cs" />
+    <Compile Include="Assets\WritingSelection.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -73,6 +83,36 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\CsSelection.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\MathSelection.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\BiologySelection.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\WritingSelection.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ChemistrySelection.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\PhysicsSelection.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\PsySelection.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\EngrSelection.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\LitSelection.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SpchSelection.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\TravisSelection.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
