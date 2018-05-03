@@ -2946,6 +2946,9 @@ namespace TutorXAndroid
 			// aapt resource value: 0x7f080084
 			public const int coordinator = 2131230852;
 			
+			// aapt resource value: 0x7f080080
+			public const int csv = 2131230848;
+			
 			// aapt resource value: 0x7f080055
 			public const int custom = 2131230805;
 			
@@ -3365,9 +3368,6 @@ namespace TutorXAndroid
 			
 			// aapt resource value: 0x7f0800a5
 			public const int volume_item_container = 2131230885;
-			
-			// aapt resource value: 0x7f080080
-			public const int webView1 = 2131230848;
 			
 			// aapt resource value: 0x7f080027
 			public const int withText = 2131230759;

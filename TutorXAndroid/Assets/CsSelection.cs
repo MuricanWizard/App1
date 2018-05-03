@@ -9,13 +9,15 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using Xamarin.Forms;
+//using Xamarin.Forms;
+using Android.Webkit;
 
 namespace TutorXAndroid.Resources.layout
 {
-    [Activity(Label = "CsSelection")]
+    [Activity(Label = "CsSelection", Theme ="@android:style/Theme.NoTitleBar")]
     public class CsSelection : Activity
     {
+        WebView csv;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -30,10 +32,8 @@ namespace TutorXAndroid.Resources.layout
                 StartActivity(typeof(CourseSelection));
             };
 
-            var browser = new WebView
-            {
-                Source = "http://xamarin.com"
-            };
+            csv = FindViewById<WebView>(Resource.Id.csv);
+            csv.SetWebViewClient(new WebViewClient());
         }
     }
 }
