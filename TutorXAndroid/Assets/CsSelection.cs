@@ -34,6 +34,9 @@ namespace TutorXAndroid.Resources.layout
 
             csv = FindViewById<WebView>(Resource.Id.csv);
             csv.SetWebViewClient(new WebViewClient());
+
+            csv.Settings.JavaScriptEnabled = true;
+            csv.LoadUrl("https://calendar.google.com/calendar/selfsched?sstoken=UUlaRjBiSHJBNWJIfGRlZmF1bHR8ZGNmNzE1YWQxM2Y4NTRhY2I4ZTJjZjM0N2M3ZGQyNzA");
         }
     }
 }

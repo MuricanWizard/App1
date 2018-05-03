@@ -9,12 +9,14 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Webkit;
 
 namespace TutorXAndroid.Resources.layout
 {
     [Activity(Label = "WritingSelection")]
     public class WritingSelection : Activity
     {
+        WebView writview;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -28,6 +30,13 @@ namespace TutorXAndroid.Resources.layout
             {
                 StartActivity(typeof(CourseSelection));
             };
+
+            writview = FindViewById<WebView>(Resource.Id.csv);
+            writview.SetWebViewClient(new WebViewClient());
+
+            writview.Settings.JavaScriptEnabled = true;
+            writview.LoadUrl("https://calendar.google.com/calendar/selfsched?sstoken=UUlaRjBiSHJBNWJIfGRlZmF1bHR8ZGNmNzE1YWQxM2Y4NTRhY2I4ZTJjZjM0N2M3ZGQyNzA");
+
         }
     }
 }

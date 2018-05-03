@@ -9,12 +9,15 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Webkit;
 
 namespace TutorXAndroid.Resources.layout
 {
     [Activity(Label = "TravisSelection")]
     public class TravisSelection : Activity
     {
+
+        WebView travisview;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -28,6 +31,13 @@ namespace TutorXAndroid.Resources.layout
             {
                 StartActivity(typeof(CourseSelection));
             };
+
+            travisview = FindViewById<WebView>(Resource.Id.csv);
+            travisview.SetWebViewClient(new WebViewClient());
+
+            travisview.Settings.JavaScriptEnabled = true;
+            travisview.LoadUrl("https://calendar.google.com/calendar/selfsched?sstoken=UUlaRjBiSHJBNWJIfGRlZmF1bHR8ZGNmNzE1YWQxM2Y4NTRhY2I4ZTJjZjM0N2M3ZGQyNzA");
+
         }
     }
 }

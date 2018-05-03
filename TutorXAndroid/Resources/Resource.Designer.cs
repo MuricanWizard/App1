@@ -2784,47 +2784,47 @@ namespace TutorXAndroid
 			// aapt resource value: 0x7f080074
 			public const int BackButton = 2131230836;
 			
-			// aapt resource value: 0x7f080076
-			public const int Biology = 2131230838;
+			// aapt resource value: 0x7f080077
+			public const int Biology = 2131230839;
 			
-			// aapt resource value: 0x7f080078
-			public const int Chemistry = 2131230840;
+			// aapt resource value: 0x7f080079
+			public const int Chemistry = 2131230841;
 			
 			// aapt resource value: 0x7f080073
 			public const int ChooseAppointment = 2131230835;
 			
-			// aapt resource value: 0x7f08007e
-			public const int Csci = 2131230846;
-			
-			// aapt resource value: 0x7f08007b
-			public const int Engr = 2131230843;
+			// aapt resource value: 0x7f08007f
+			public const int Csci = 2131230847;
 			
 			// aapt resource value: 0x7f08007c
-			public const int Lit = 2131230844;
-			
-			// aapt resource value: 0x7f080075
-			public const int Math = 2131230837;
-			
-			// aapt resource value: 0x7f080079
-			public const int Physics = 2131230841;
-			
-			// aapt resource value: 0x7f08007a
-			public const int Psy = 2131230842;
+			public const int Engr = 2131230844;
 			
 			// aapt resource value: 0x7f08007d
-			public const int Spch = 2131230845;
+			public const int Lit = 2131230845;
+			
+			// aapt resource value: 0x7f080076
+			public const int Math = 2131230838;
+			
+			// aapt resource value: 0x7f08007a
+			public const int Physics = 2131230842;
+			
+			// aapt resource value: 0x7f08007b
+			public const int Psy = 2131230843;
+			
+			// aapt resource value: 0x7f08007e
+			public const int Spch = 2131230846;
 			
 			// aapt resource value: 0x7f080090
 			public const int Student = 2131230864;
 			
-			// aapt resource value: 0x7f08007f
-			public const int Travis = 2131230847;
+			// aapt resource value: 0x7f080080
+			public const int Travis = 2131230848;
 			
 			// aapt resource value: 0x7f080091
 			public const int Tutor = 2131230865;
 			
-			// aapt resource value: 0x7f080077
-			public const int Writing = 2131230839;
+			// aapt resource value: 0x7f080078
+			public const int Writing = 2131230840;
 			
 			// aapt resource value: 0x7f0800b0
 			public const int action0 = 2131230896;
@@ -2946,8 +2946,8 @@ namespace TutorXAndroid
 			// aapt resource value: 0x7f080084
 			public const int coordinator = 2131230852;
 			
-			// aapt resource value: 0x7f080080
-			public const int csv = 2131230848;
+			// aapt resource value: 0x7f080075
+			public const int csv = 2131230837;
 			
 			// aapt resource value: 0x7f080055
 			public const int custom = 2131230805;
