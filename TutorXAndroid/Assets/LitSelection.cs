@@ -13,7 +13,7 @@ using Android.Webkit;
 
 namespace TutorXAndroid.Resources.layout
 {
-    [Activity(Label = "LitSelection")]
+    [Activity(Label = "LitSelection", Theme = "@android:style/Theme.NoTitleBar")]
     public class LitSelection : Activity
     {
         WebView litview;

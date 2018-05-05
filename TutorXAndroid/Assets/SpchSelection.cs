@@ -13,7 +13,7 @@ using Android.Webkit;
 
 namespace TutorXAndroid.Resources.layout
 {
-    [Activity(Label = "SpchSelection")]
+    [Activity(Label = "SpchSelection", Theme = "@android:style/Theme.NoTitleBar")]
     public class SpchSelection : Activity
     {
         WebView spchview;

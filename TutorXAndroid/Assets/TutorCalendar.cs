@@ -13,7 +13,7 @@ using Android.Webkit;
 
 namespace TutorXAndroid.Assets
 {
-    [Activity(Label = "TutorCalendar")]
+    [Activity(Label = "TutorCalendar", Theme = "@android:style/Theme.NoTitleBar")]
     public class TutorCalendar : Activity
     {
         WebView tutorCalendar;

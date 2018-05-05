@@ -14,7 +14,7 @@ using Android.Webkit;
 
 namespace TutorXAndroid.Resources.layout
 {
-    [Activity(Label = "ChemistrySelection")]
+    [Activity(Label = "ChemistrySelection", Theme = "@android:style/Theme.NoTitleBar")]
     public class ChemistrySelection : Activity
     {
         WebView chemview;

@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace TutorXAndroid.Assets
 {
-    [Activity(Label = "MainTutor")]
+    [Activity(Label = "MainTutor", Theme = "@android:style/Theme.NoTitleBar")]
     public class MainTutor : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

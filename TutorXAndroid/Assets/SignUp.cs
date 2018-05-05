@@ -13,7 +13,7 @@ using Android.Webkit;
 
 namespace TutorXAndroid.Assets
 {
-    [Activity(Label = "SignUp")]
+    [Activity(Label = "SignUp", Theme = "@android:style/Theme.NoTitleBar")]
     public class SignUp : Activity
     {
         WebView signUp;

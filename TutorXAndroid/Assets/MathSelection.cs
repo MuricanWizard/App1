@@ -13,7 +13,7 @@ using Android.Webkit;
 
 namespace TutorXAndroid.Resources.layout
 {
-    [Activity(Label = "MathSelection")]
+    [Activity(Label = "MathSelection", Theme = "@android:style/Theme.NoTitleBar")]
     public class MathSelection : Activity
     {
         WebView mathview;

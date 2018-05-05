@@ -18,7 +18,7 @@
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
@@ -124,6 +124,7 @@
     <Compile Include="Assets\MainActivity.cs" />
     <Compile Include="Assets\CourseSelection.cs" />
     <Compile Include="Assets\CsSelection.cs" />
+    <Compile Include="Assets\MainTutor.cs" />
     <Compile Include="Assets\MathSelection.cs" />
     <Compile Include="Assets\BiologySelection.cs" />
     <Compile Include="Assets\ChemistrySelection.cs" />
@@ -131,13 +132,24 @@
     <Compile Include="Assets\PhysicsSelection.cs" />
     <Compile Include="Assets\PsySelection.cs" />
     <Compile Include="Assets\LitSelection.cs" />
+    <Compile Include="Assets\SignUp.cs" />
     <Compile Include="Assets\TravisSelection.cs" />
     <Compile Include="Assets\SpchSelection.cs" />
+    <Compile Include="Assets\TutorCalendar.cs" />
     <Compile Include="Assets\WritingSelection.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\layout\TutorMain.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\TutorCalendar.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\SignUp.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />

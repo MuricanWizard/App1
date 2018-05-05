@@ -5,7 +5,7 @@ using TutorXAndroid.Assets;
 
 namespace TutorXAndroid
 {
-    [Activity(Label = "TutorXAndroid", MainLauncher = true)]
+    [Activity(Label = "TutorXAndroid", MainLauncher = true, Theme = "@android:style/Theme.NoTitleBar")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

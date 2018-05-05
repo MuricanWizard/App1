@@ -13,7 +13,7 @@ using Android.Webkit;
 
 namespace TutorXAndroid.Resources.layout
 {
-    [Activity(Label = "WritingSelection")]
+    [Activity(Label = "WritingSelection", Theme = "@android:style/Theme.NoTitleBar")]
     public class WritingSelection : Activity
     {
         WebView writview;

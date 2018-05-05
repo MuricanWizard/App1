@@ -13,10 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/signUp" />
-  <Button
-    android:text="Back"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/BackButton"
-    android:textAllCaps="false" />
+    <Button
+        android:text="Back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/BackButton"
+        android:textAllCaps="false" />
 </LinearLayout>

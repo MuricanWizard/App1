@@ -13,7 +13,7 @@ using Android.Webkit;
 
 namespace TutorXAndroid.Resources.layout
 {
-    [Activity(Label = "PhysicsSelection")]
+    [Activity(Label = "PhysicsSelection", Theme = "@android:style/Theme.NoTitleBar")]
     public class PhysicsSelection : Activity
     {
         WebView physview;

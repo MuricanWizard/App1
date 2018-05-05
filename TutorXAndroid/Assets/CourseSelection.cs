@@ -13,7 +13,7 @@ using TutorXAndroid.Resources.layout;
 
 namespace TutorXAndroid.Resources.layout
 {
-    [Activity(Label = "CourseSelection")]
+    [Activity(Label = "CourseSelection", Theme = "@android:style/Theme.NoTitleBar")]
     public class CourseSelection : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

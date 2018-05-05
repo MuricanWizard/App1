@@ -13,7 +13,7 @@ using TutorXAndroid.Resources.layout;
 
 namespace TutorXAndroid
 {
-    [Activity(Label = "Activity1")]
+    [Activity(Label = "Activity1", Theme = "@android:style/Theme.NoTitleBar")]
     public class Activity1 : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

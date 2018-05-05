@@ -13,7 +13,7 @@ using Android.Webkit;
 
 namespace TutorXAndroid.Resources.layout
 {
-    [Activity(Label = "EngrSelection")]
+    [Activity(Label = "EngrSelection", Theme = "@android:style/Theme.NoTitleBar")]
     public class EngrSelection : Activity
     {
         WebView engrview;
