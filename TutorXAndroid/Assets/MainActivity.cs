@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using TutorXAndroid.Assets;
 
 namespace TutorXAndroid
 {
@@ -17,6 +18,11 @@ namespace TutorXAndroid
             Student.Click += delegate
             {
                 StartActivity(typeof(Activity1));
+            };
+            Button Tutor = FindViewById<Button>(Resource.Id.Tutor);
+            Tutor.Click += delegate
+            {
+                StartActivity(typeof(MainTutor));
             };
         }
     }

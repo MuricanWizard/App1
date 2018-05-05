@@ -9,24 +9,27 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
-using TutorXAndroid.Resources.layout;
 
-namespace TutorXAndroid
+namespace TutorXAndroid.Assets
 {
-    [Activity(Label = "Activity1")]
-    public class Activity1 : Activity
+    [Activity(Label = "MainTutor")]
+    public class MainTutor : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.TutorMain);
 
-            // Set our view from the "main" layout resource
-
-            SetContentView(Resource.Layout.Activity1);
-            Button ChooseAppointment = FindViewById<Button>(Resource.Id.ChooseAppointment);
-            ChooseAppointment.Click += delegate
+            Button openCalendar = FindViewById<Button>(Resource.Id.openCalendar);
+            openCalendar.Click += delegate
             {
-                StartActivity(typeof(CourseSelection));
+                StartActivity(typeof(TutorCalendar));
+            };
+
+            Button signUp = FindViewById<Button>(Resource.Id.signUp);
+            signUp.Click += delegate
+            {
+                StartActivity(typeof(SignUp));
             };
             Button Back = FindViewById<Button>(Resource.Id.BackButton);
             Back.Click += delegate

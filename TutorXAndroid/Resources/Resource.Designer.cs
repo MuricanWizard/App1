@@ -3060,8 +3060,8 @@ namespace TutorXAndroid
 			// aapt resource value: 0x7f080048
 			public const int list_item = 2131230792;
 			
-			// aapt resource value: 0x7f0800c5
-			public const int masked = 2131230917;
+			// aapt resource value: 0x7f0800c7
+			public const int masked = 2131230919;
 			
 			// aapt resource value: 0x7f0800b3
 			public const int media_actions = 2131230899;
@@ -3171,6 +3171,9 @@ namespace TutorXAndroid
 			// aapt resource value: 0x7f0800b5
 			public const int notification_main_column_container = 2131230901;
 			
+			// aapt resource value: 0x7f0800c4
+			public const int openCalendar = 2131230916;
+			
 			// aapt resource value: 0x7f080037
 			public const int parallax = 2131230775;
 			
@@ -3260,6 +3263,9 @@ namespace TutorXAndroid
 			
 			// aapt resource value: 0x7f080017
 			public const int showTitle = 2131230743;
+			
+			// aapt resource value: 0x7f0800c5
+			public const int signUp = 2131230917;
 			
 			// aapt resource value: 0x7f080081
 			public const int smallLabel = 2131230849;
@@ -3363,8 +3369,8 @@ namespace TutorXAndroid
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f0800c4
-			public const int visible = 2131230916;
+			// aapt resource value: 0x7f0800c6
+			public const int visible = 2131230918;
 			
 			// aapt resource value: 0x7f0800a5
 			public const int volume_item_container = 2131230885;
@@ -3685,16 +3691,25 @@ namespace TutorXAndroid
 			public const int select_dialog_singlechoice_material = 2130903115;
 			
 			// aapt resource value: 0x7f03004c
-			public const int SpchSelection = 2130903116;
+			public const int SignUp = 2130903116;
 			
 			// aapt resource value: 0x7f03004d
-			public const int support_simple_spinner_dropdown_item = 2130903117;
+			public const int SpchSelection = 2130903117;
 			
 			// aapt resource value: 0x7f03004e
-			public const int TravisSelection = 2130903118;
+			public const int support_simple_spinner_dropdown_item = 2130903118;
 			
 			// aapt resource value: 0x7f03004f
-			public const int WritingSelection = 2130903119;
+			public const int TravisSelection = 2130903119;
+			
+			// aapt resource value: 0x7f030050
+			public const int TutorCalendar = 2130903120;
+			
+			// aapt resource value: 0x7f030051
+			public const int TutorMain = 2130903121;
+			
+			// aapt resource value: 0x7f030052
+			public const int WritingSelection = 2130903122;
 			
 			static Layout()
 			{
